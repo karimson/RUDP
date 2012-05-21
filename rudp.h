@@ -14,6 +14,12 @@
 #define RUDP_SYN	4
 #define RUDP_FIN	5
 
+/* Outgoing peer status */
+#define INITIAL 1
+#define SYN_SENT 2
+#define SENDING 3
+#define FINISHED 4
+
 /*
  * Sequence numbers are 32-bit integers operated on with modular arithmetic.
  * These macros can be used to compare sequence numbers.
