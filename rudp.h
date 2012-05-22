@@ -20,6 +20,11 @@
 #define SENDING 3
 #define FINISHED 4
 
+
+typedef int bool;
+#define TRUE 1
+#define FALSE 0
+
 /*
  * Sequence numbers are 32-bit integers operated on with modular arithmetic.
  * These macros can be used to compare sequence numbers.
