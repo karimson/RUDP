@@ -232,7 +232,7 @@ int filesender(int file, void *arg) {
 	    }
 	}
 	event_fd_delete(filesender, rsock);
-	rudp_close(rsock);		
+	rudp_close(rsock);	
     }
     else {
 	vs.vs_type = htonl(VS_TYPE_DATA);
